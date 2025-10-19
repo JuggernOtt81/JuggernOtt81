@@ -1,72 +1,92 @@
+Here’s a **professional resume-style GitHub profile README** based on your latest resume and your current position updates (PLNU ended in April 2025):
+
+***
+
 # Lawson Ott
 
-[LinkedIn](https://www.linkedin.com/in/lawsonott/) | [Website](https://juggernott81.com) | [GitHub](https://github.com/JuggernOtt81?tab=followers)
+**Dynamic Software Engineer | Systems Integrator | Full-Stack Developer**  
+[Website](https://juggernott81.com) | [LinkedIn](https://www.linkedin.com/in/lawsonott/) | [GitHub](https://github.com/JuggernOtt81?tab=followers)
 
----
+***
 
-## About Me
+## Professional Summary
 
-Software engineer focused on building innovative, user-centric applications. Experienced in full-stack development, specializing in the C#/.NET ecosystem, Blazor, MAUI, and modern web technologies. Currently developing niche business solutions and exploring the intersection of technology and user experience.
+Seasoned Software Engineer with expertise in enterprise integrations, full-stack web and mobile development, and business process automation. Adept at executing complex technical solutions across platforms such as Workday, Salesforce, and custom applications, with a proactive, results-oriented approach. Track record of leveraging modern technologies to streamline workflows, reduce errors, and deliver scalable solutions.
 
-Professional focus: Reducing tedious and repetitive tasks for staff, enabling talent to be better utilized on meaningful work.
+***
 
-Location: Richmond, IN | Technological Problem Solvers LLC
+## Key Skills
 
----
+- **Languages:** C#, Java, JavaScript, HTML5, CSS3, XSL/XSLT, SQL, PowerShell
+- **Technologies:** Workday Studio, Salesforce, Pathify, ASP.NET, Blazor, MAUI, Xamarin Forms
+- **Frameworks:** .NET, ASP.NET MVC, Blazor, MAUI
+- **Tools:** Visual Studio, Git, GitHub, Workday Reporting
+- **Specialties:** Full Stack Development, Systems Integration, Process Automation
 
-## Skills
+***
 
-**Languages:**  C#, JavaScript, HTML5, CSS3, PowerShell  
-**Frameworks:**  .NET, Blazor, MAUI, ASP.NET  
-**Tools:**  Git, GitHub, Visual Studio
+## Professional Experience
 
----
+**Software Engineer – Point Loma Nazarene University**  
+April 2023 – April 2025  
+- Led mission-critical integration initiatives connecting Workday, Salesforce, Pathify, and Watermark, significantly reducing manual processes.
+- Developed custom reporting solutions and widgets with C#, JavaScript, and HTML/CSS; enhanced departmental efficiency.
+- Automated data transformation with XSL/XSLT, drastically reducing errors.
+
+**Freelance IT Consultant – Technological Problem Solvers LLC**  
+Jan 2020 – Present  
+- Delivered high-performance Xamarin Forms apps and ASP.NET MVC web solutions; optimized site performance and improved data workflows.
+- Led multiple client projects: CRM systems, inventory management, numerology algorithms, and dynamic blog sites.
+
+**Technical Support Representative – US Internet**  
+Apr 2022 – Sep 2022  
+- Supported legacy and fiber optic systems, ensuring maximum uptime and rapid troubleshooting.
+
+**Software Developer in Training – Coder Foundry**  
+Apr 2020 – Aug 2020  
+- Developed issue tracker with C#/MVC/SQL Server/jQuery and a secure cross-platform mobile app using Xamarin.
+
+***
+
+## Certifications & Education
+
+- **Google Play Store Listing Certificate** (Valid through Apr 2025)  
+- **Responsive Web Design – freeCodeCamp** (Issued Dec 2018)
+
+***
 
 ## Selected Projects
 
 - [MoviePro](https://github.com/JuggernOtt81/MoviePro): Movie collection manager with TMDB API integration (C#)
-- [WindowsScripts](https://github.com/JuggernOtt81/WindowsScripts): PowerShell scripts for Windows automation
+- [WindowsScripts](https://github.com/JuggernOtt81/WindowsScripts): PowerShell automation scripts
 - [NumNumsBugs](https://github.com/JuggernOtt81/NumNumsBugs): Bug reporting for NumNums numerology app
-- [OurBudget](https://github.com/JuggernOtt81/OurBudget): Personal budgeting application (C#)
+- [OurBudget](https://github.com/JuggernOtt81/OurBudget): Personal budgeting tool
 
----
+***
 
-## Certifications & Education
+## Volunteer Service
 
-- Google Play Store Listing Certificate ([Credential](https://www.credential.net/8308c37b-ae6b-407c-aced-6a8b1a655437)) — valid through Apr 2025
-- Responsive Web Design, freeCodeCamp (Issued Dec 2018)
+- **Fundraising Assistant, The Salvation Army** – 27 years (Poverty Alleviation Focus)
 
----
+***
 
-## Volunteer Experience
+## Additional Interests
 
-- Fundraising Assistant, The Salvation Army (27 years)
-  - Focus: Poverty Alleviation
+- Kuk Sool Won martial arts practitioner ([Learn more](https://www.kuksoolwon.com/))
 
----
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JuggernOtt81&show_icons=false&theme=default&count_private=true "GitHub Stats")
-
----
+***
 
 ## Contact
 
-- Website: [juggernott81.com](https://juggernott81.com)
-- LinkedIn: [linkedin.com/in/lawsonott](https://www.linkedin.com/in/lawsonott/)
-- Twitter/X: [@juggernott81](https://twitter.com/juggernott81)
+- **Website:** [juggernott81.com](https://juggernott81.com)
+- **LinkedIn:** [linkedin.com/in/lawsonott](https://www.linkedin.com/in/lawsonott/)
+- **Twitter/X:** [@juggernott81](https://twitter.com/juggernott81)
 
----
+***
 
-## Interests
+*Feel free to copy and paste above directly into your README.md for a clean, resume-style profile.*
 
-- Kuk Sool Won (Martial Arts) Practitioner ([Learn more](https://www.kuksoolwon.com/))
+If you want to automatically update formatting or add visual stats/badges, let me know!
 
----
-
-[Profile views](https://komarev.com/ghpvc/?username=JuggernOtt81)
-
----
-
-From [JuggernOtt81](https://github.com/JuggernOtt81)
+[1](https://github.com/JuggernOtt81/JuggernOtt81/edit/main/README.md)
+[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/127478503/fd57024d-bf9b-4bfb-aa8f-a092b83a8439/Lawson-Ott-Resume-2024.10.02.pdf)
