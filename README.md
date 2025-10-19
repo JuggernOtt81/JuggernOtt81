@@ -1,7 +1,3 @@
-Here’s a **professional resume-style GitHub profile README** based on your latest resume and your current position updates (PLNU ended in April 2025):
-
-***
-
 # Lawson Ott
 
 **Dynamic Software Engineer | Systems Integrator | Full-Stack Developer**  
