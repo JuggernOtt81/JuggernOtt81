@@ -8,6 +8,8 @@
 
 Software engineer focused on building innovative, user-centric applications. Experienced in full-stack development, specializing in the C#/.NET ecosystem, Blazor, MAUI, and modern web technologies. Currently developing niche business solutions and exploring the intersection of technology and user experience.
 
+Professional focus: Reducing tedious and repetitive tasks for staff, enabling talent to be better utilized on meaningful work.
+
 Location: Richmond, IN | Technological Problem Solvers LLC
 
 ---
@@ -26,6 +28,20 @@ Location: Richmond, IN | Technological Problem Solvers LLC
 - [WindowsScripts](https://github.com/JuggernOtt81/WindowsScripts): PowerShell scripts for Windows automation
 - [NumNumsBugs](https://github.com/JuggernOtt81/NumNumsBugs): Bug reporting for NumNums numerology app
 - [OurBudget](https://github.com/JuggernOtt81/OurBudget): Personal budgeting application (C#)
+
+---
+
+## Certifications & Education
+
+- Google Play Store Listing Certificate ([Credential](https://www.credential.net/8308c37b-ae6b-407c-aced-6a8b1a655437)) — valid through Apr 2025
+- Responsive Web Design, freeCodeCamp (Issued Dec 2018)
+
+---
+
+## Volunteer Experience
+
+- Fundraising Assistant, The Salvation Army (27 years)
+  - Focus: Poverty Alleviation
 
 ---
 
