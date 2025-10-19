@@ -126,10 +126,7 @@ Driven software engineer with expertise in full-stack development, specializing 
 
 ## 🎉 Fun Facts & Hobbies
 
-- 🎸 Plays guitar and enjoys live music
-- 🏀 Basketball fan
-- 🧩 Loves solving puzzles and brain teasers
-- 🌲 Enjoys hiking and outdoor adventures
+- 🥋 Kuk Sool Won (Martial Arts) Practitioner ([Learn more](https://www.kuksoolwon.com/))
 
 ---
 
