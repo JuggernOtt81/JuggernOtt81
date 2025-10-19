@@ -78,7 +78,7 @@ Apr 2020 – Aug 2020
 
 ## Additional Interests
 
-- Kuk Sool Won(https://www.kuksoolwon.com/) (martial arts)
+- [Kuk Sool Won](https://www.kuksoolwon.com/) (martial arts)
 
 ***
 
