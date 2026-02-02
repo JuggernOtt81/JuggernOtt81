@@ -12,6 +12,20 @@
         --muted: #4b5563;
         --surface: #ffffff;
         --background: #f5f6fa;
+        --border: rgba(148, 163, 184, 0.2);
+        --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --accent: #7aa2ff;
+          --text: #e2e8f0;
+          --muted: #94a3b8;
+          --surface: #111827;
+          --background: #0f172a;
+          --border: rgba(148, 163, 184, 0.35);
+          --shadow: 0 12px 30px rgba(15, 23, 42, 0.45);
+        }
       }
       * {
         box-sizing: border-box;
@@ -32,7 +46,7 @@
         background: var(--surface);
         padding: 32px;
         border-radius: 16px;
-        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        box-shadow: var(--shadow);
       }
       h1 {
         margin: 0 0 8px;
@@ -52,6 +66,10 @@
         color: var(--accent);
         text-decoration: none;
         font-weight: 600;
+      }
+      a:hover,
+      a:focus-visible {
+        text-decoration: underline;
       }
       section {
         margin-top: 32px;
@@ -73,7 +91,7 @@
         background: var(--surface);
         padding: 20px;
         border-radius: 12px;
-        border: 1px solid rgba(148, 163, 184, 0.2);
+        border: 1px solid var(--border);
       }
       footer {
         margin-top: 40px;
@@ -91,7 +109,6 @@
         <h1>Lawson Ott</h1>
         <p class="tagline">Software Engineer | Systems Integrator | Full-Stack Developer</p>
         <div class="links">
-          <a href="https://juggernott81.github.io/">GitHub Pages</a>
           <a href="https://juggernott81.com/">Main Website</a>
           <a href="https://www.linkedin.com/in/lawsonott/">LinkedIn</a>
           <a href="https://github.com/JuggernOtt81">GitHub</a>
