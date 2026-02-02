@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lawson Ott | Software Engineer</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --accent: #1f5fe3;
+        --text: #1b1f24;
+        --muted: #4b5563;
+        --surface: #ffffff;
+        --background: #f5f6fa;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background: var(--background);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 48px 24px 64px;
+      }
+      header {
+        background: var(--surface);
+        padding: 32px;
+        border-radius: 16px;
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 3vw, 2.75rem);
+      }
+      .tagline {
+        margin: 0 0 16px;
+        font-weight: 600;
+        color: var(--muted);
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .links a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      section {
+        margin-top: 32px;
+      }
+      h2 {
+        margin-bottom: 12px;
+        font-size: 1.4rem;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      .cards {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+      .card {
+        background: var(--surface);
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+      }
+      footer {
+        margin-top: 40px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      footer a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Lawson Ott</h1>
+        <p class="tagline">Software Engineer | Systems Integrator | Full-Stack Developer</p>
+        <div class="links">
+          <a href="https://juggernott81.github.io/">GitHub Pages</a>
+          <a href="https://juggernott81.com/">Main Website</a>
+          <a href="https://www.linkedin.com/in/lawsonott/">LinkedIn</a>
+          <a href="https://github.com/JuggernOtt81">GitHub</a>
+          <a href="mailto:juggernott81@gmail.com">Email</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p>
+          Software engineer experienced in enterprise integrations, full-stack web and mobile development,
+          and workflow automation. Focused on building connected systems, troubleshooting, and reducing
+          manual work for teams.
+        </p>
+      </section>
+
+      <section>
+        <h2>Highlights</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Core Skills</h3>
+            <ul>
+              <li>C#, Java, JavaScript, HTML5, CSS3, SQL</li>
+              <li>ASP.NET, Blazor, MAUI, Salesforce, Workday Studio</li>
+              <li>Systems integration and process automation</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Recent Role</h3>
+            <p>
+              Application Systems Analyst/Programmer Intermediate at the Indiana Department of Local
+              Government Finance, supporting application analysis, development, and Agile team projects.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Sample Projects</h3>
+            <ul>
+              <li><a href="https://zoquex.com/pickaflick-intro">Pick-a-Flick</a> — Movie collection manager.</li>
+              <li><a href="https://juggernott81.dev/">Contacts IO</a> — Contacts management application.</li>
+              <li><a href="https://zoquex.com/">Other Samples</a> — Smaller experiments and demos.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Hosted on GitHub Pages at <a href="https://juggernott81.github.io/">juggernott81.github.io</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
