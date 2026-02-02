@@ -1,0 +1,48 @@
+2026-02-02T19:21:31.376Z	Initializing build environment...
+2026-02-02T19:21:33.837Z	Success: Finished initializing build environment
+2026-02-02T19:21:34.244Z	Cloning repository...
+2026-02-02T19:21:35.182Z	No build output detected to cache. Skipping.
+2026-02-02T19:21:35.182Z	No dependencies detected to cache. Skipping.
+2026-02-02T19:21:35.186Z	Detected the following tools from environment: 
+2026-02-02T19:21:35.364Z	Executing user deploy command: npx wrangler deploy
+2026-02-02T19:21:38.801Z	npm warn exec The following package was not found and will be installed: wrangler@4.61.1
+2026-02-02T19:21:50.592Z	
+2026-02-02T19:21:50.592Z	 ⛅️ wrangler 4.61.1
+2026-02-02T19:21:50.593Z	───────────────────
+2026-02-02T19:21:50.629Z	
+2026-02-02T19:21:50.629Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-02-02T19:21:50.631Z	
+2026-02-02T19:21:50.703Z	✘ [ERROR] Missing entry-point to Worker script or to assets directory
+2026-02-02T19:21:50.704Z	
+2026-02-02T19:21:50.704Z	  
+2026-02-02T19:21:50.704Z	  If there is code to deploy, you can either:
+2026-02-02T19:21:50.704Z	  - Specify an entry-point to your Worker script via the command line (ex: `npx wrangler deploy src/index.ts`)
+2026-02-02T19:21:50.704Z	  - Or create a "wrangler.jsonc" file containing:
+2026-02-02T19:21:50.705Z	  
+2026-02-02T19:21:50.705Z	  ```
+2026-02-02T19:21:50.705Z	  {
+2026-02-02T19:21:50.705Z	    "name": "worker-name",
+2026-02-02T19:21:50.705Z	    "compatibility_date": "2026-02-02",
+2026-02-02T19:21:50.705Z	    "main": "src/index.ts"
+2026-02-02T19:21:50.706Z	  }
+2026-02-02T19:21:50.706Z	  ```
+2026-02-02T19:21:50.706Z	  
+2026-02-02T19:21:50.706Z	  
+2026-02-02T19:21:50.706Z	  If are uploading a directory of assets, you can either:
+2026-02-02T19:21:50.706Z	  - Specify the path to the directory of assets via the command line: (ex: `npx wrangler deploy --assets=./dist`)
+2026-02-02T19:21:50.706Z	  - Or create a "wrangler.jsonc" file containing:
+2026-02-02T19:21:50.707Z	  
+2026-02-02T19:21:50.707Z	  ```
+2026-02-02T19:21:50.707Z	  {
+2026-02-02T19:21:50.707Z	    "name": "worker-name",
+2026-02-02T19:21:50.707Z	    "compatibility_date": "2026-02-02",
+2026-02-02T19:21:50.707Z	    "assets": {
+2026-02-02T19:21:50.708Z	      "directory": "./dist"
+2026-02-02T19:21:50.708Z	    }
+2026-02-02T19:21:50.708Z	  }
+2026-02-02T19:21:50.708Z	  ```
+2026-02-02T19:21:50.708Z	  
+2026-02-02T19:21:50.708Z	
+2026-02-02T19:21:50.709Z	
+2026-02-02T19:21:50.768Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-02-02_19-21-49_847.log"
+2026-02-02T19:21:50.962Z	Failed: error occurred while running deploy command
