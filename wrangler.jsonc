@@ -1,8 +1,0 @@
-{
-  // Wrangler config for deploying static assets to Cloudflare via `npx wrangler deploy`
-  "name": "juggernott81-pages-assets",
-  "compatibility_date": "2026-02-02",
-  "assets": {
-    "directory": "./"
-  }
-}
