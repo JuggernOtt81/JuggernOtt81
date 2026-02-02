@@ -1,5 +1,9 @@
 name: CI / Deploy
 
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches: [ main ]
@@ -13,19 +17,24 @@ jobs:
 
       - name: Prepare publish directory
         run: |
-          # Ensure a clean publish directory for actions that expect a single folder
-          ls -la
+          # Create a clean public directory for publishing
+          rm -rf public || true
+          mkdir -p public
+          # Copy repository files into public but exclude Git metadata and CI config
+          rsync -av --exclude='.git' --exclude='.github' --exclude='public' ./ public/
+          ls -la public
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./public
+          publish_branch: gh-pages
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: ${{ secrets.CF_PROJECT_NAME }}
-          directory: ./
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: ./public
