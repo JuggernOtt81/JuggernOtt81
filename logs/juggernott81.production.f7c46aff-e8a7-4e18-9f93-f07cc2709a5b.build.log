@@ -1,0 +1,19 @@
+2026-02-02T19:44:36.376Z	Initializing build environment...
+2026-02-02T19:44:39.006Z	Success: Finished initializing build environment
+2026-02-02T19:44:39.312Z	Cloning repository...
+2026-02-02T19:44:40.419Z	No build output detected to cache. Skipping.
+2026-02-02T19:44:40.419Z	No dependencies detected to cache. Skipping.
+2026-02-02T19:44:40.422Z	Detected the following tools from environment: 
+2026-02-02T19:44:40.552Z	Executing user deploy command: npx wrangler versions upload
+2026-02-02T19:44:42.843Z	npm warn exec The following package was not found and will be installed: wrangler@4.61.1
+2026-02-02T19:44:54.488Z	
+2026-02-02T19:44:54.488Z	 ⛅️ wrangler 4.61.1
+2026-02-02T19:44:54.488Z	───────────────────
+2026-02-02T19:44:54.550Z	
+2026-02-02T19:44:54.638Z	✘ [ERROR] The directory specified by the "assets.directory" field in your configuration file does not exist:
+2026-02-02T19:44:54.638Z	
+2026-02-02T19:44:54.638Z	  /opt/buildhome/repo/public
+2026-02-02T19:44:54.638Z	
+2026-02-02T19:44:54.638Z	
+2026-02-02T19:44:54.691Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-02-02_19-44-53_633.log"
+2026-02-02T19:44:54.890Z	Failed: error occurred while running deploy command
