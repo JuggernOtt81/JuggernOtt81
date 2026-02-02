@@ -1,9 +1,171 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lawson Ott | Software Engineer</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --accent: #1f5fe3;
+        --text: #1b1f24;
+        --muted: #4b5563;
+        --surface: #ffffff;
+        --background: #f5f6fa;
+        --border: rgba(148, 163, 184, 0.2);
+        --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --accent: #7aa2ff;
+          --text: #e2e8f0;
+          --muted: #94a3b8;
+          --surface: #111827;
+          --background: #0f172a;
+          --border: rgba(148, 163, 184, 0.35);
+          --shadow: 0 12px 30px rgba(15, 23, 42, 0.45);
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background: var(--background);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 48px 24px 64px;
+      }
+      header {
+        background: var(--surface);
+        padding: 32px;
+        border-radius: 16px;
+        box-shadow: var(--shadow);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 3vw, 2.75rem);
+      }
+      .tagline {
+        margin: 0 0 16px;
+        font-weight: 600;
+        color: var(--muted);
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .links a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover,
+      a:focus-visible {
+        text-decoration: underline;
+      }
+      section {
+        margin-top: 32px;
+      }
+      h2 {
+        margin-bottom: 12px;
+        font-size: 1.4rem;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      .cards {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+      .card {
+        background: var(--surface);
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+      }
+      footer {
+        margin-top: 40px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      footer a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Lawson Ott</h1>
+        <p class="tagline">Software Engineer | Systems Integrator | Full-Stack Developer</p>
+        <div class="links">
+          <a href="https://juggernott81.com/">Main Website</a>
+          <a href="https://www.linkedin.com/in/lawsonott/">LinkedIn</a>
+          <a href="https://github.com/JuggernOtt81">GitHub</a>
+          <a href="mailto:juggernott81@gmail.com">Email</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p>
+          Software engineer experienced in enterprise integrations, full-stack web and mobile development,
+          and workflow automation. Focused on building connected systems, troubleshooting, and reducing
+          manual work for teams.
+        </p>
+      </section>
+
+      <section>
+        <h2>Highlights</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Core Skills</h3>
+            <ul>
+              <li>C#, Java, JavaScript, HTML5, CSS3, SQL</li>
+              <li>ASP.NET, Blazor, MAUI, Salesforce, Workday Studio</li>
+              <li>Systems integration and process automation</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Recent Role</h3>
+            <p>
+              Application Systems Analyst/Programmer Intermediate at the Indiana Department of Local
+              Government Finance, supporting application analysis, development, and Agile team projects.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Sample Projects</h3>
+            <ul>
+              <li><a href="https://zoquex.com/pickaflick-intro">Pick-a-Flick</a> √¢‚Ç¨‚Äù Movie collection manager.</li>
+              <li><a href="https://juggernott81.dev/">Contacts IO</a> √¢‚Ç¨‚Äù Contacts management application.</li>
+              <li><a href="https://zoquex.com/">Other Samples</a> √¢‚Ç¨‚Äù Smaller experiments and demos.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Hosted on GitHub Pages at <a href="https://juggernott81.github.io/">juggernott81.github.io</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+=======
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lawson Ott ó Software Engineer</title>
+  <title>Lawson Ott ‚Äî Software Engineer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -56,36 +218,36 @@
       <div class="timeline">
         <div class="timeline-item">
           <h3 class="h5 mb-1">Application Systems Analyst/Programmer Intermediate</h3>
-          <p class="text-muted mb-1">State of Indiana / Indiana Department of Local Government Finance (DLGF) ó Indianapolis, IN</p>
-          <p class="mb-1"><small>Oct 2025 ñ Present</small></p>
+          <p class="text-muted mb-1">State of Indiana / Indiana Department of Local Government Finance (DLGF) ‚Äî Indianapolis, IN</p>
+          <p class="mb-1"><small>Oct 2025 ‚Äì Present</small></p>
           <p>Application analysis, development, workflow automation, Agile team projects.</p>
         </div>
 
         <div class="timeline-item">
           <h3 class="h5 mb-1">Software Engineer</h3>
           <p class="text-muted mb-1">Point Loma Nazarene University (PLNU)</p>
-          <p class="mb-1"><small>April 2023 ñ April 2025</small></p>
+          <p class="mb-1"><small>April 2023 ‚Äì April 2025</small></p>
           <p>System integration (Workday, Salesforce, Pathify, Watermark), reporting, data transformation.</p>
         </div>
 
         <div class="timeline-item">
           <h3 class="h5 mb-1">IT Consultant</h3>
           <p class="text-muted mb-1">Technological Problem Solvers LLC</p>
-          <p class="mb-1"><small>Jan 2020 ñ Present</small></p>
+          <p class="mb-1"><small>Jan 2020 ‚Äì Present</small></p>
           <p>Full-stack development, automation, CRM and custom project implementations.</p>
         </div>
 
         <div class="timeline-item">
           <h3 class="h5 mb-1">Technical Support</h3>
           <p class="text-muted mb-1">US Internet</p>
-          <p class="mb-1"><small>Apr 2022 ñ Sep 2022</small></p>
+          <p class="mb-1"><small>Apr 2022 ‚Äì Sep 2022</small></p>
           <p>Troubleshooting for ISPs, legacy & fiber tech.</p>
         </div>
 
         <div class="timeline-item">
           <h3 class="h5 mb-1">.NET Developer in Training</h3>
           <p class="text-muted mb-1">Coder Foundry</p>
-          <p class="mb-1"><small>Apr 2020 ñ Aug 2020</small></p>
+          <p class="mb-1"><small>Apr 2020 ‚Äì Aug 2020</small></p>
           <p>.NET MVC web applications, cross-platform mobile app (Xamarin).</p>
         </div>
       </div>
@@ -95,22 +257,22 @@
       <h2 class="h4">Certifications & Education</h2>
       <ul>
         <li><a href="https://www.credential.net/8308c37b-ae6b-407c-aced-6a8b1a655437#acc.amAVeRTX" target="_blank" rel="noopener">Google Play Store Listing Certificate</a></li>
-        <li><a href="https://www.freecodecamp.org/certification/juggernott81/responsive-web-design" target="_blank" rel="noopener">Responsive Web Design ñ freeCodeCamp</a></li>
+        <li><a href="https://www.freecodecamp.org/certification/juggernott81/responsive-web-design" target="_blank" rel="noopener">Responsive Web Design ‚Äì freeCodeCamp</a></li>
       </ul>
     </section>
 
     <section class="mb-4">
       <h2 class="h4">Sample Projects</h2>
       <ul>
-        <li><a href="https://zoquex.com/pickaflick-intro" target="_blank" rel="noopener">Pick-a-Flick</a> ó Movie collection manager with TMDB API integration (Blazor WASM, C#)</li>
+        <li><a href="https://zoquex.com/pickaflick-intro" target="_blank" rel="noopener">Pick-a-Flick</a> ‚Äî Movie collection manager with TMDB API integration (Blazor WASM, C#)</li>
         <li><a href="https://zoquex.com/" target="_blank" rel="noopener">Other Smaller Samples</a></li>
-        <li><a href="https://juggernott81.dev/" target="_blank" rel="noopener">Contacts IO</a> ó Contacts Management Application (Blazor Server, Identity, PostgreSQL)</li>
+        <li><a href="https://juggernott81.dev/" target="_blank" rel="noopener">Contacts IO</a> ‚Äî Contacts Management Application (Blazor Server, Identity, PostgreSQL)</li>
       </ul>
     </section>
 
     <section class="mb-4">
       <h2 class="h4">Volunteer Service & Interests</h2>
-      <p>Fundraising Assistant, The Salvation Army ñ 1998-2005. Open for volunteer work in several areas. Additional interests include Kuk Sool Won (martial arts).</p>
+      <p>Fundraising Assistant, The Salvation Army ‚Äì 1998-2005. Open for volunteer work in several areas. Additional interests include Kuk Sool Won (martial arts).</p>
     </section>
 
     <section class="mb-4">
