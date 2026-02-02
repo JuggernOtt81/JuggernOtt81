@@ -4,3 +4,6 @@
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Prevent ignoring public assets
+# public/
